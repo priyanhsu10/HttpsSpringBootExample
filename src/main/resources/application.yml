@@ -1,0 +1,9 @@
+server:
+  ssl:
+    enabled: true
+
+    keyAlias: spring-https
+    key-store: classpath:test.p12
+    keyStoreType: PKCS12
+    key-store-password: priya123
+  port: 8443
